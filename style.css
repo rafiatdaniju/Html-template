@@ -1,0 +1,134 @@
+html{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav{
+    display: inline-flex;
+    margin: auto 0;
+
+}
+h1, h2, h5, h6, p {
+    margin:5px auto ;
+    padding: 0 auto;
+}
+p{
+    color: hsl(45, 0%, 60%);
+}
+.anchor-tag{
+    display: inline-flex;
+    margin: 0px 50px;
+    padding: 0 auto;
+}
+a{
+    padding: 0 10px;
+    text-decoration: none;
+    color:rgb(26, 6, 6);
+    font-weight: 20;
+}
+a:hover{
+    color: aqua;
+}
+nav button{
+    background-color: blue;
+    color: white;
+    margin: 0 10px;
+    border-color: blue;
+
+}
+.faculty{
+    background-color:hsl(240, 60%, 5%);
+    color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+   
+}
+span{
+    color:hsl(45, 0%, 60%) ;
+}
+.main-teacher{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5% ;    
+}
+
+.teacher{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    margin-left: 50px;
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:hsl(0, 0%, 35%) ;
+}
+.light{
+    background-color: hsl(345, 0%, 85%);
+}
+.grey{
+    background-color: hsl(45, 0%, 65%);
+}
+.online{
+    background-color: hsl(0, 0%, 35%) ;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+
+}
+.date{
+    display: inline-flex;
+    margin: 20px;
+}
+.minutes, .hours, .days, .seconds {
+    border-radius: 100%;
+    border:2px solid white;
+    width: 80px;
+    margin: 0 5px;
+
+}
+.online button{
+    background-color: inherit;
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+footer{
+    background-color: hsla(240, 85%, 10%, 0.9);
+    color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-container{
+    display: inline-flex;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.container{
+    margin: 0 auto;
+}
+.about{
+    width: 200px;
+}
+.white{
+    color: white;
+}
